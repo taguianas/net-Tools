@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useLayoutEffect } from 'react';
 
 /**
  * Reactively tracks the dark mode class on <html>.
@@ -10,7 +10,9 @@ export function useTheme(): boolean {
     () => document.documentElement.classList.contains('dark')
   );
 
-  useEffect(() => {
+  useLayoutEffect(() => {
+    setIsDark(document.documentElement.classList.contains('dark'));
+
     const observer = new MutationObserver(() => {
       setIsDark(document.documentElement.classList.contains('dark'));
     });
