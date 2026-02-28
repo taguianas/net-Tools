@@ -1,204 +1,216 @@
-# NetTools — Network Engineering Toolbox
+<div align="center">
 
-> A comprehensive, privacy-first network engineering toolbox that runs entirely in your browser.
-> No backend. No data transmission. No compromise.
+# 🌐 NetTools
+### Next-Gen Network Engineering Toolbox
 
----
+**🔴 [View Live Demo](https://net-tools-eight.vercel.app/)** &nbsp;|&nbsp; **⚙️ [Installation & Setup](#-getting-started)**
 
-## Overview
+<br/>
 
-NetTools is a professional-grade collection of network utilities designed for network engineers, IT administrators, security teams, and students. Every calculation, conversion, and analysis is performed client-side using JavaScript — your data never leaves your device.
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![Privacy](https://img.shields.io/badge/Privacy-100%25_Client--Side-cyan?style=for-the-badge)
+![Maintained](https://img.shields.io/badge/Maintained-Yes-success?style=for-the-badge)
+![Built With](https://img.shields.io/badge/Built_With-React_19-61DAFB?style=for-the-badge&logo=react)
 
----
-
-## Features
-
-- **100% Client-Side** — All computations run in the browser. No server, no latency, no data leakage.
-- **Offline Capable** — Works without an internet connection once loaded. Ideal for air-gapped and restricted environments.
-- **Privacy First** — Zero telemetry, zero analytics, zero cookies beyond localStorage for your own preferences.
-- **PWA Ready** — Installable as a Progressive Web App for a native-like experience.
-- **Dark / Light Mode** — Reactive theme switching with no flash or glitch.
-- **Favorites & History** — Pin your most-used tools and access recent sessions instantly.
-- **Command Palette** — `Ctrl+K` / `Cmd+K` to jump to any tool instantly.
-- **Export / Import** — Backup and restore all your settings and history as a JSON file.
+</div>
 
 ---
 
-## Included Tools
+## 📖 About The Project
 
-### Core Tools
-| Tool | Description |
-|------|-------------|
-| **Subnet Calculator** | IPv4/IPv6 subnet breakdown — network/host/broadcast addresses, wildcard masks, usable hosts |
-| **VLSM Planner** | Variable Length Subnet Masking — allocate subnets by required host count |
-| **CIDR Aggregator** | Aggregate multiple CIDR blocks into the smallest supernet |
-| **IP Utilities** | IP address format conversions, validation, and analysis |
-| **Binary Converter** | Convert IP addresses to binary, hex, decimal, and dotted notation |
+**NetTools** is a professional-grade network engineering toolbox that runs **entirely in your browser**. Designed for network engineers, IT administrators, security teams, and students — it provides 27 powerful tools with zero data transmission, zero backend servers, and zero compromise on privacy.
 
-### Planning
-| Tool | Description |
-|------|-------------|
-| **VLAN Planner** | Design and document VLAN layouts with range allocation |
-| **MTU Calculator** | Calculate MTU overhead for various encapsulation protocols |
-| **Bandwidth Calculator** | Convert between bandwidth units and estimate transfer times |
-| **QoS Calculator** | Calculate DSCP/CoS markings and queue bandwidth allocations |
-| **Packet Analyzer** | Analyze protocol overhead and effective payload ratios |
-| **Routing Config** | Generate static and dynamic routing configuration snippets |
-| **WiFi Analyzer** | Compare 2.4 GHz / 5 GHz channels and non-overlapping channel planning |
-| **IPv6 Generator** | Generate, expand, compress, and validate IPv6 addresses |
+> Every calculation, conversion, and analysis happens locally on your device. Your network data never leaves your machine.
 
-### Testing
-| Tool | Description |
-|------|-------------|
-| **Port Scanner** | Simulate port scanning and check common service ports |
-| **DNS Lookup** | DNS-over-HTTPS lookups (A, AAAA, MX, TXT, CNAME, NS records) |
-| **Ping Tool** | ICMP-style reachability simulation and latency estimation |
+### ✨ Why NetTools?
 
-### Security
-| Tool | Description |
-|------|-------------|
-| **ACL/Firewall Builder** | Build Cisco ACL or iptables rules with a visual editor |
-| **Password Tools** | Generate secure passwords, passphrases, and compute common hashes |
-
-### Visualization
-| Tool | Description |
-|------|-------------|
-| **Visual Subnet Map** | Interactive graphical subnet tree and allocation map |
-
-### Reference
-| Tool | Description |
-|------|-------------|
-| **MAC/OUI Lookup** | Look up vendor information from MAC address OUI prefix |
-| **Port Reference** | Comprehensive well-known and registered port number reference |
-| **Documentation** | Built-in networking documentation and protocol references |
-| **Config Templates** | Reusable device configuration templates (Cisco, MikroTik, Linux) |
-
-### Utilities
-| Tool | Description |
-|------|-------------|
-| **Batch Processor** | Process multiple subnets or IPs in bulk |
-| **Troubleshooting** | Guided network troubleshooting checklists and flowcharts |
+- ⚡ **Instant results** — No API calls, no waiting, pure client-side computation
+- 🔒 **Privacy first** — Zero telemetry, zero analytics, zero data leakage
+- 📡 **Works offline** — Perfect for air-gapped networks and restricted environments
+- 🎨 **Beautiful UI** — Dark/light mode, animations, responsive design
+- 📌 **Smart workflow** — Favorites, history, command palette (`Ctrl+K`), quick calculator
 
 ---
 
-## Technology Stack
+## 🛠️ Tools Included
 
-| Layer | Technology |
-|-------|-----------|
-| Framework | React 19 |
-| Build Tool | Vite (rolldown-vite) |
-| Language | TypeScript |
-| Styling | Tailwind CSS 3 + shadcn/ui |
-| Routing | React Router v7 |
-| Animations | Framer Motion |
-| Icons | Lucide React |
-| Notifications | Sonner |
+<details>
+<summary><b>🔵 Core Tools (5)</b></summary>
+
+| Tool | Description |
+|------|-------------|
+| **Subnet Calculator** | IPv4/IPv6 breakdown — network, broadcast, wildcard, usable hosts |
+| **VLSM Planner** | Allocate subnets by required host count |
+| **CIDR Aggregator** | Merge multiple CIDRs into the smallest supernet |
+| **IP Utilities** | Format conversions, validation, and IP analysis |
+| **Binary Converter** | IP ↔ binary, hex, decimal conversions |
+
+</details>
+
+<details>
+<summary><b>🟢 Planning Tools (8)</b></summary>
+
+| Tool | Description |
+|------|-------------|
+| **VLAN Planner** | Design and document VLAN layouts |
+| **MTU Calculator** | Overhead analysis for encapsulation protocols |
+| **Bandwidth Calculator** | Unit conversions and transfer time estimation |
+| **QoS Calculator** | DSCP/CoS markings and queue allocations |
+| **Packet Analyzer** | Protocol overhead and payload ratio analysis |
+| **Routing Config** | Static and dynamic routing config generator |
+| **WiFi Analyzer** | 2.4/5 GHz channel planning and overlap detection |
+| **IPv6 Generator** | Generate, expand, compress, and validate IPv6 |
+
+</details>
+
+<details>
+<summary><b>🟡 Testing Tools (3)</b></summary>
+
+| Tool | Description |
+|------|-------------|
+| **Port Scanner** | Common service port checking |
+| **DNS Lookup** | DoH-based A, AAAA, MX, TXT, CNAME, NS lookups |
+| **Ping Tool** | Reachability simulation and latency estimation |
+
+</details>
+
+<details>
+<summary><b>🔴 Security Tools (2)</b></summary>
+
+| Tool | Description |
+|------|-------------|
+| **ACL/Firewall Builder** | Cisco ACL and iptables rule generator |
+| **Password Tools** | Secure password/passphrase generation and hashing |
+
+</details>
+
+<details>
+<summary><b>🟣 Reference & Utilities (9)</b></summary>
+
+| Tool | Description |
+|------|-------------|
+| **Visual Subnet Map** | Interactive graphical subnet allocation map |
+| **MAC/OUI Lookup** | Vendor identification from MAC prefix |
+| **Port Reference** | Well-known and registered port database |
+| **Documentation** | Built-in networking protocol reference |
+| **Config Templates** | Reusable Cisco, MikroTik, Linux templates |
+| **Batch Processor** | Bulk subnet and IP processing |
+| **Troubleshooting** | Guided checklists and network flowcharts |
+
+</details>
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) v18 or higher
-- npm v9 or higher
+- [Node.js](https://nodejs.org/) v18+
+- npm v9+
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/taguianas/net-tools.git
 cd net-tools
 
 # Install dependencies
 npm install
-```
 
-### Development
-
-```bash
+# Start development server
 npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-### Production Build
+### Build for Production
 
 ```bash
 npm run build
-```
-
-The compiled output will be in the `dist/` folder. Serve it with any static file server.
-
-```bash
-# Preview the production build locally
 npm run preview
 ```
 
 ---
 
-## Usage
-
-### Keyboard Shortcuts
+## ⌨️ Keyboard Shortcuts
 
 | Shortcut | Action |
 |----------|--------|
 | `Ctrl+K` / `Cmd+K` | Open command palette |
-| `Esc` | Close modals / command palette |
-| `↑ ↓` | Navigate command palette results |
-
-### Favorites
-
-Click the star icon on any tool page (or in the favorites bar) to pin a tool for quick access. Favorites appear in the quick-access bar at the top of every page.
-
-### Data Export / Import
-
-Go to **Settings → Data Management → Export Data** to download a full backup of your favorites, history, and preferences as a `.json` file. Import it on any device using **Import Data**.
+| `Esc` | Close modals |
+| `↑ ↓` | Navigate palette results |
+| `Ctrl+/` | Toggle quick calculator |
 
 ---
 
-## Privacy
+## 🏗️ Tech Stack
 
-NetTools is built with privacy as its foundation:
+<div align="center">
 
-- No backend servers — runs purely client-side
-- No data transmission — your inputs never leave your device
-- No analytics or tracking of any kind
-- No cookies — only `localStorage` for your own preferences (stays local)
-- No external API calls — except optional DNS lookups (DoH) which you initiate and control
+![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
-Perfect for security-conscious organizations, air-gapped networks, and anyone who values data privacy.
+</div>
 
 ---
 
-## Project Structure
+## 🔒 Privacy Commitment
+
+| Feature | Status |
+|---------|--------|
+| Backend servers | ❌ None |
+| Data transmission | ❌ Zero |
+| Analytics / tracking | ❌ None |
+| Cookies | ❌ None |
+| External API calls | ⚠️ Optional DNS-over-HTTPS only |
+| Local storage | ✅ Your preferences, stays on device |
+
+---
+
+## 📁 Project Structure
 
 ```
 src/
-├── Pages/              # Tool pages (one file per tool)
+├── Pages/              # 27 tool pages
 ├── components/
-│   ├── features/       # Layout-level features (CommandPalette, FavoritesBar, QuickCalc, …)
-│   ├── tools/          # Shared tool UI components (ToolPageWrapper, ResultCard, …)
-│   ├── ui/             # shadcn/ui base components (Button, Input, Dialog, …)
-│   └── utils/          # Utility functions and localStorage helpers
+│   ├── features/       # CommandPalette, FavoritesBar, QuickCalc...
+│   ├── tools/          # ToolPageWrapper, ResultCard...
+│   ├── ui/             # Button, Input, Dialog, Tabs, Select...
+│   └── utils/          # localStorage helpers
 ├── lib/
-│   ├── utils.ts        # cn(), createPageUrl() helpers
-│   └── useTheme.ts     # Reactive dark mode hook (MutationObserver-based)
-├── App.tsx             # Route definitions (React Router v7 nested routes)
-├── Layout.tsx          # App shell (sidebar, header, favorites bar, toaster)
-└── index.css           # Global styles and Tailwind base layers
+│   ├── utils.ts        # cn(), createPageUrl()
+│   └── useTheme.ts     # Reactive dark mode (MutationObserver)
+├── App.tsx             # Route definitions
+└── Layout.tsx          # App shell
 ```
 
 ---
 
-## Author
+## 👤 Author
+
+<div align="center">
 
 **Anas TAGUI**
 
-Designed and built NetTools to give network engineers a fast, private, and offline-capable workspace — no cloud dependencies, no data collection, just the tools you need.
+*Designer & Developer of NetTools*
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
+
+</div>
 
 ---
 
-## License
+## 📄 License
 
-MIT — free to use, modify, and distribute.
+<div align="center">
+
+Distributed under the **MIT License** — free to use, modify, and distribute.
+
+⭐ **Star this repo if you find it useful!**
+
+</div>
