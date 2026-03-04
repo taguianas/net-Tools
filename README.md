@@ -19,17 +19,17 @@
 
 ## 📖 About The Project
 
-**NetTools** is a professional-grade network engineering toolbox that runs **entirely in your browser**. Designed for network engineers, IT administrators, security teams, and students — it provides 27 powerful tools with zero data transmission, zero backend servers, and zero compromise on privacy.
+**NetTools** is a professional-grade network engineering toolbox that runs **entirely in your browser**. Designed for network engineers, IT administrators, security teams, and students : it provides 27 powerful tools with zero data transmission, zero backend servers, and zero compromise on privacy.
 
 > Every calculation, conversion, and analysis happens locally on your device. Your network data never leaves your machine.
 
 ### ✨ Why NetTools?
 
-- ⚡ **Instant results** — No API calls, no waiting, pure client-side computation
-- 🔒 **Privacy first** — Zero telemetry, zero analytics, zero data leakage
-- 📡 **Works offline** — Perfect for air-gapped networks and restricted environments
-- 🎨 **Beautiful UI** — Dark/light mode, animations, responsive design
-- 📌 **Smart workflow** — Favorites, history, command palette (`Ctrl+K`), quick calculator
+- ⚡ **Instant results** : No API calls, no waiting, pure client-side computation
+- 🔒 **Privacy first** : Zero telemetry, zero analytics, zero data leakage
+- 📡 **Works offline** : Perfect for air-gapped networks and restricted environments
+- 🎨 **Beautiful UI** : Dark/light mode, animations, responsive design
+- 📌 **Smart workflow** : Favorites, history, command palette (`Ctrl+K`), quick calculator
 
 ---
 
@@ -40,7 +40,7 @@
 
 | Tool | Description |
 |------|-------------|
-| **Subnet Calculator** | IPv4/IPv6 breakdown — network, broadcast, wildcard, usable hosts |
+| **Subnet Calculator** | IPv4/IPv6 breakdown : network, broadcast, wildcard, usable hosts |
 | **VLSM Planner** | Allocate subnets by required host count |
 | **CIDR Aggregator** | Merge multiple CIDRs into the smallest supernet |
 | **IP Utilities** | Format conversions, validation, and IP analysis |
@@ -209,7 +209,7 @@ src/
 
 <div align="center">
 
-Distributed under the **MIT License** — free to use, modify, and distribute.
+Distributed under the **MIT License** : free to use, modify, and distribute.
 
 ⭐ **Star this repo if you find it useful!**
 
